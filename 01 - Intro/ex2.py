@@ -5,7 +5,7 @@ def get_max_close(symbol):
     return df['Close'].max()
 
 def test_run():
-    for symbol in [ 'AAPL', 'IBM' ]:
+    for symbol in [ 'AAPL', 'IBM' ]: 
         print("Max close")
         print(symbol, get_max_close(symbol))
 
